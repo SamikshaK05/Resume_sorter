@@ -1,0 +1,16 @@
+# OS-specific
+.DS_Store
+
+# Streamlit secrets (VERY IMPORTANT)
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local data (optional, but often excluded if it's large/private)
+# data/processed/
+# data/uploads/
+# data/samples/
