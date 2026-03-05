@@ -1,5 +1,4 @@
 # Resume_sorter
-AI - based Resume Sorter
 📄 Resume Sorter - AI-Powered Resume Filtering Tool
 An intelligent resume filtering and analysis application built with Streamlit and Google Gemini AI. Upload multiple resumes and filter them using natural language queries to find the perfect candidates.
 
@@ -22,10 +21,12 @@ LinkedIn and GitHub profiles
 📈 Match Scoring: Get AI-generated match scores for each candidate
 📥 Excel Export: Export filtered results to Excel for further analysis
 🎨 Modern UI: Clean, intuitive interface with light theme
+
 🚀 Quick Start
 Prerequisites
 Python 3.8 or higher
 Google Gemini API Key (Get one here)
+
 Installation
 Clone the repository
 
@@ -46,6 +47,7 @@ streamlit run app.py
 Open your browser
 
 The app will automatically open at http://localhost:8501
+
 📖 Usage
 Upload Resumes
 Upload Files: Click the upload area and select one or more resume files (PDF, DOC, DOCX, TXT)
@@ -121,8 +123,8 @@ Enter your Render URL in the "Website" field:
 https://resume-sorter-6hgh.onrender.com/
 Click Save changes
 The link will now appear at the top-right of your repository page
-In Repository Description
 
+In Repository Description
 Go to your repository main page
 Click the ✏️ Edit icon next to the description
 Add: 🌐 Live Demo: https://resume-sorter-6hgh.onrender.com/
@@ -131,6 +133,7 @@ Render Free Tier Notes
 ✅ First request after spin-down takes 15-30 seconds (cold start)
 ✅ 750 hours/month free tier
 ✅ Perfect for small to medium projects
+
 📁 Project Structure
 resume_sorter/
 ├── app.py                 # Main Streamlit application
@@ -154,6 +157,8 @@ resume_sorter/
 ├── Procfile              # Render deployment config
 ├── render.yaml           # Render service configuration
 └── README.md             # This file
+
+
 🛠️ Technologies Used
 Streamlit: Web application framework
 Google Gemini AI: Natural language processing and resume analysis
@@ -162,11 +167,13 @@ PyPDF2 / pdfplumber / PyMuPDF: PDF text extraction
 python-docx: DOCX file handling
 openpyxl / xlsxwriter: Excel export functionality
 scikit-learn: Machine learning utilities
+
 🔐 Security Notes
 API Keys: Never commit API keys to version control
 Secrets File: .streamlit/secrets.toml is excluded from Git
 Environment Variables: Use environment variables for production deployments
 File Uploads: Uploaded files are stored temporarily and processed immediately
+
 📝 License
 This project is open source and available for personal and commercial use.
 
